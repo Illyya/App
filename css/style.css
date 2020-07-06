@@ -219,8 +219,6 @@ h1 {
   height: 40px;
   line-height: 35px;
   margin-right: 25px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 }
 
 @media (max-width: 970px) {
@@ -333,6 +331,8 @@ h1 {
 .btn {
   display: inline-block;
   font-weight: 700;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .marketing-1 {
@@ -541,6 +541,111 @@ h1 {
   .item p {
     line-height: 20px;
   }
+}
+
+.marketing-2 {
+  background-color: #ffffff;
+  padding: 90px 0 110px 0;
+}
+
+.marketing-2__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.marketing-2__info {
+  max-width: 470px;
+}
+
+.marketing-2__menu {
+  width: 560px;
+}
+
+.info {
+  padding: 60px 0 0 0;
+  text-align: right;
+}
+
+.info__title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #233148;
+  margin-bottom: 45px;
+}
+
+.info__text {
+  line-height: 27px;
+  color: #6a6d89;
+  margin-bottom: 30px;
+}
+
+.info__btn {
+  border: 1px solid #77e1fe;
+  border-radius: 5px;
+  background-color: #33d2fd;
+  color: #ffffff;
+  padding: 0 45px;
+  height: 50px;
+  line-height: 45px;
+}
+
+.info__btn:hover {
+  color: #233148;
+  background-color: #77e1fe;
+}
+
+.menu__list {
+  width: 100%;
+}
+
+.menu__li {
+  max-width: 100%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 110px 25px 75px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 5px 10px 0 #ebecec;
+          box-shadow: 0 5px 10px 0 #ebecec;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.menu__li .sprite {
+  position: absolute;
+  left: 30px;
+}
+
+.menu__li .sprite-m2-2 {
+  left: 35px;
+}
+
+.menu__li:hover {
+  cursor: pointer;
+  background-color: #33d2fd;
+}
+
+.menu__li:hover p {
+  display: block;
+  color: #ffffff;
+}
+
+.menu__text span {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 15px;
+  color: #233148;
+  margin: 5px 0 15px 5px;
+}
+
+.menu__text p {
+  display: none;
+  line-height: 27px;
 }
 
 .sprite {

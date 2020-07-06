@@ -42,6 +42,8 @@ body {
     font-weight: 400;
 }
 
+$col-t-1: #233148;
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -159,7 +161,7 @@ h1 {
         height: 40px;
         line-height: 35px;
         margin-right: 25px;    
-        transition: 0.3s;   
+          
         @media (max-width: 970px) {
             & {
                 padding: 0 20px;
@@ -247,6 +249,7 @@ h1 {
 .btn {
     display: inline-block;
     font-weight: 700;    
+    transition: 0.3s; 
 }
 
 .marketing-1 {
@@ -425,6 +428,99 @@ h1 {
             & {
                 line-height: 20px;
             }
+        }
+    }
+}
+
+.marketing-2 {
+    background-color: #ffffff;
+    padding: 90px 0 110px 0;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        max-width: 470px;
+    }
+
+    &__menu {
+        width: 560px;
+    }
+}
+
+.info {
+    padding: 60px 0 0 0;
+    text-align: right;
+    &__title {
+        font-weight: 700;
+        font-size: 30px;        
+        color: $col-t-1;
+        margin-bottom: 45px;
+    }
+
+    &__text {
+        line-height: 27px;
+        color: #6a6d89;
+        margin-bottom: 30px;
+    }
+
+    &__btn {
+        border: 1px solid #77e1fe;
+        border-radius: 5px;
+        background-color: #33d2fd;
+        color: #ffffff;
+
+        padding: 0 45px;
+        height: 50px;
+        line-height: 45px;
+        &:hover {
+            color: $col-t-1;
+            background-color: #77e1fe;
+        }
+    }
+}
+
+.menu {
+
+    &__list {
+        width: 100%;
+    }
+    &__li {
+        max-width: 100%;
+        position: relative;
+        display: flex;
+        padding: 20px 110px 25px 75px;
+        margin-bottom: 20px;
+        box-shadow: 0 5px 10px 0 #ebecec;
+        transition: 0.6s;
+        .sprite {
+            position: absolute;
+            left: 30px;
+        }
+        .sprite-m2-2 {
+            left: 35px;
+        }
+        &:hover {
+            cursor: pointer;
+            background-color: #33d2fd;
+            p {
+                display: block;
+                color: #ffffff;
+            }
+        }
+    }
+    &__text {        
+        span {
+            display: inline-block;
+            font-weight: 700;
+            font-size: 15px;
+            color: $col-t-1;
+            margin: 5px 0 15px 5px;
+        }
+        p {
+            display: none;
+            line-height: 27px;            
         }
     }
 }
