@@ -32,9 +32,9 @@ button::-moz-focus-inner {padding:0;border:0;}
 a, a:visited{text-decoration: none;}
 a:hover{text-decoration: none;}
 ul li{list-style: none;}
-img{vertical-align: top;}
-
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+img{max-width: 100%;}
+
 /*--------------------*/
 
 body {
@@ -83,6 +83,12 @@ h1 {
             line-height: 45px;
         }
     }
+}
+
+.title-2 {
+    font-weight: 700;
+    font-size: 30px;        
+    color: $col-t-1;
 }
 
 .header {
@@ -452,10 +458,7 @@ h1 {
 .info {
     padding: 60px 0 0 0;
     text-align: right;
-    &__title {
-        font-weight: 700;
-        font-size: 30px;        
-        color: $col-t-1;
+    &__title-2 {        
         margin-bottom: 45px;
     }
 
@@ -520,8 +523,58 @@ h1 {
         }
         p {
             display: none;
-            line-height: 27px;            
+            line-height: 27px;                  
         }
+    }
+}
+
+.marketing-3 {
+    padding: 55px 0;
+    background: #fafafc;
+    &__body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__left {}
+
+    &__img {
+        width: 573px;
+        height: 368px;
+    }
+
+    &__right {
+        max-width: 470px;
+    }
+
+    &__text {}
+
+    &__title-2 {
+        margin-bottom: 40px;
+    }
+
+    &__list {
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 40px;
+        li:not(:last-of-type) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__check {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin-right: 15px;
+        background: url('../img/marketing-3/2.png') no-repeat center #33d2fd;
+        vertical-align: middle;
+    }
+
+    &__p {
+        line-height: 27px;
     }
 }
 

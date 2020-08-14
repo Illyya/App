@@ -63,13 +63,13 @@ ul li {
   list-style: none;
 }
 
-img {
-  vertical-align: top;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*--------------------*/
@@ -121,6 +121,12 @@ h1 {
     font-size: 35px;
     line-height: 45px;
   }
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #233148;
 }
 
 .header {
@@ -570,10 +576,7 @@ h1 {
   text-align: right;
 }
 
-.info__title {
-  font-weight: 700;
-  font-size: 30px;
-  color: #233148;
+.info__title-2 {
   margin-bottom: 45px;
 }
 
@@ -645,6 +648,60 @@ h1 {
 
 .menu__text p {
   display: none;
+  line-height: 27px;
+}
+
+.marketing-3 {
+  padding: 55px 0;
+  background: #fafafc;
+}
+
+.marketing-3__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-3__img {
+  width: 573px;
+  height: 368px;
+}
+
+.marketing-3__right {
+  max-width: 470px;
+}
+
+.marketing-3__title-2 {
+  margin-bottom: 40px;
+}
+
+.marketing-3__list {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.marketing-3__list li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.marketing-3__check {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background: url("../img/marketing-3/2.png") no-repeat center #33d2fd;
+  vertical-align: middle;
+}
+
+.marketing-3__p {
   line-height: 27px;
 }
 
