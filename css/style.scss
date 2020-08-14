@@ -290,10 +290,7 @@ h1 {
     }
     &__img {
         max-width: 265px;
-        margin-top: 180px;
-        img {
-            max-width: 100%;
-        }
+        margin-top: 180px;        
         @media (max-width: 970px) {
             & {
                 max-width: 225px;
@@ -303,8 +300,7 @@ h1 {
             & {
                 display: none;
             }
-        }
-        
+        }        
     }
     &__items {
         display: flex;
@@ -575,6 +571,72 @@ h1 {
 
     &__p {
         line-height: 27px;
+    }
+}
+
+.marketing-4 {
+    position: relative;
+    padding: 110px 0 95px 0;
+    background: url('../img/marketing-4/1.jpg') no-repeat;
+    background-size: cover;
+    &__body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__left {
+        margin-right: 155px;
+    }
+
+    &__img {
+        max-width: 265px;
+    }
+
+    &__right {
+        max-width: 455px;
+    }
+
+    &__text {}
+
+    &__title-2 {
+        margin-bottom: 40px;
+    }
+
+    &__p {
+        color: #ffffff;
+        line-height: 27px;
+        margin-bottom: 35px;
+    }
+
+    &__apps {
+        display: flex;
+    }
+
+    &__ios {
+        max-width: 170px;
+        margin-right: 35px;
+    }
+
+    &__google {
+        max-width: 161px;
+    }
+
+    &__app {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(to bottom, #fe7470, #f63b7d);
+        width: 370px;
+        height: 70px;
+        color: #ffffff;
+        font-size: 20px;        
+        font-weight: 700;   
+        box-shadow: 0 11px 29px #ff075e1c;   
     }
 }
 

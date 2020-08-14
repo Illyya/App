@@ -386,10 +386,6 @@ h1 {
   margin-top: 180px;
 }
 
-.marketing-1__img img {
-  max-width: 100%;
-}
-
 @media (max-width: 970px) {
   .marketing-1__img {
     max-width: 225px;
@@ -703,6 +699,88 @@ h1 {
 
 .marketing-3__p {
   line-height: 27px;
+}
+
+.marketing-4 {
+  position: relative;
+  padding: 110px 0 95px 0;
+  background: url("../img/marketing-4/1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.marketing-4__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-4__left {
+  margin-right: 155px;
+}
+
+.marketing-4__img {
+  max-width: 265px;
+}
+
+.marketing-4__right {
+  max-width: 455px;
+}
+
+.marketing-4__title-2 {
+  margin-bottom: 40px;
+}
+
+.marketing-4__p {
+  color: #ffffff;
+  line-height: 27px;
+  margin-bottom: 35px;
+}
+
+.marketing-4__apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.marketing-4__ios {
+  max-width: 170px;
+  margin-right: 35px;
+}
+
+.marketing-4__google {
+  max-width: 161px;
+}
+
+.marketing-4__app {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fe7470), to(#f63b7d));
+  background-image: linear-gradient(to bottom, #fe7470, #f63b7d);
+  width: 370px;
+  height: 70px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  -webkit-box-shadow: 0 11px 29px #ff075e1c;
+          box-shadow: 0 11px 29px #ff075e1c;
 }
 
 .sprite {
