@@ -783,6 +783,102 @@ h1 {
           box-shadow: 0 11px 29px #ff075e1c;
 }
 
+.marketing-5 {
+  color: #6a6d89;
+  padding: 140px 0 85px 0;
+}
+
+.marketing-5__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.marketing-5__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 95px;
+}
+
+.marketing-5__item:not(:last-of-type) {
+  margin-right: 100px;
+}
+
+.marketing-5__title-3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #233148;
+  margin-bottom: 25px;
+}
+
+.marketing-5__list li:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.marketing-5__bottom {
+  text-align: center;
+}
+
+.marketing-5__title-2 {
+  margin-bottom: 30px;
+}
+
+.marketing-5__p {
+  margin-bottom: 70px;
+}
+
+.marketing-5__form input {
+  width: 570px;
+  height: 50px;
+  background-color: #f6f7fb;
+  padding: 0 20px;
+  margin-right: 30px;
+}
+
+.marketing-5__form button {
+  width: 170px;
+  height: 50px;
+  background-color: #33d2fd;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.footer {
+  padding: 35px 0;
+  background-color: #233148;
+}
+
+.footer__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__social a:not(:last-of-type) {
+  margin-right: 45px;
+}
+
 .sprite {
   background-image: url("../img/icon/spritesheet.png");
   background-repeat: no-repeat;
